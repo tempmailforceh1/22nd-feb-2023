@@ -9,7 +9,7 @@ tk.title(" Welcome Sri Indu Students")
 tk.geometry('500x500')
 
 tk.config(bg="lavender")
-
+#pack method design the window left,right,top,bottom
 redbuttton=Button(tk,text="redbutton",fg="red").pack(side="left")
 
 bluebutton=Button(tk,text="bluebutton",fg="blue").pack(side="right")
